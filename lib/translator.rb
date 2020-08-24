@@ -9,10 +9,7 @@ def load_library(file)
     emoji_hash[feeling] = {}
     emoji_hash[feeling][:english] =  characters[0]
     emoji_hash[feeling][:japanese] = characters[1]
-    
-    
   end
-  binding.pry
   emoji_hash
 end
 
