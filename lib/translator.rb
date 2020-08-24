@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, eng_emoji)
   
     end
   end
-  binding.pry
+  
    return "Sorry, that emoticon was not found" 
 end
 
@@ -34,6 +34,7 @@ def get_english_meaning(file, jap_emoji)
   emoticons.each do |mood, symbols| 
    
     if emoticons[mood][:japanese] == jap_emoji
+      binding.pry
       return mood
     end
   end
