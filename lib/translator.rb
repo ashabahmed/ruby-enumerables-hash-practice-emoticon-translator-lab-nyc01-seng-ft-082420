@@ -12,6 +12,7 @@ def load_library(file)
     
     
   end
+  binding.pry
   emoji_hash
 end
 
