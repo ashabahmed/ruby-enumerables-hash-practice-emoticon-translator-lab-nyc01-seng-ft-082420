@@ -20,9 +20,10 @@ def get_japanese_emoticon(file, eng_emoji)
     
     if emoticons[mood][:english] == eng_emoji
       return emoticons[mood][:japanese]
-    
+  
     end
   end
+  binding.pry
    return "Sorry, that emoticon was not found" 
 end
 
